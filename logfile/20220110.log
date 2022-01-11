@@ -1,0 +1,458 @@
+2022-01-10 10:01:37,034     手机：18079579374 tabe 创建 时间:01/10/2022 10:01:37
+2022-01-10 10:01:37,040 18079579374选字安全验证
+2022-01-10 10:01:37,042 System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.PageServer.PageServer.GetIMG2(Page page, Int32 time) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 1064
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 495
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-10 10:06:37,041     手机：18079579374 tabe 自动回收 时间:01/10/2022 10:06:37
+2022-01-10 15:01:12,828     手机：18079579374 tabe 创建 时间:01/10/2022 15:01:12
+2022-01-10 15:01:12,828 18079579374选字安全验证
+2022-01-10 15:01:12,831 System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.PageServer.PageServer.GetIMG2(Page page, Int32 time) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 1064
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 495
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-10 15:06:12,829     手机：18079579374 tabe 自动回收 时间:01/10/2022 15:06:12
+2022-01-10 16:02:28,011 System.Exception: 配置有误获取token失败
+   at Systems.Qlconfig.GetToken() in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 478
+   at Systems.Qlconfig.GetEnv(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 509
+   at Systems.Qlconfig.GetEnvsCount(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 518
+   at NETJDC.Controllers.CloudController.Config() in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 91
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-01-10 16:02:41,648 
+2022-01-10 16:02:41,654 -------------------------------------------------------------------------------------
+2022-01-10 16:02:41,654 
+2022-01-10 16:02:41,664 序列号:AB4C4383-3698-4517-8579-86345CFB1603
+
+2022-01-10 16:02:41,664 Running on Linux!
+2022-01-10 16:02:41,665 系统架构：X64
+2022-01-10 16:02:41,665 系统名称：Linux 3.10.0-1160.11.1.el7.x86_64 #1 SMP Fri Dec 18 16:34:56 UTC 2020
+2022-01-10 16:02:41,665 进程架构：X64
+2022-01-10 16:02:41,665 是否64位操作系统：True
+2022-01-10 16:02:41,665 -------------------------------------------------------------------------------------
+2022-01-10 16:02:41,665 初始化项目
+2022-01-10 16:02:41,665 -------------------------------------------------------------------------------------
+2022-01-10 16:02:41,665 第一次运行会下载Chromium,后续只是检查是否下载
+2022-01-10 16:02:41,665 检查中....
+2022-01-10 16:02:41,682 True
+2022-01-10 16:02:41,684 程序配置自检 
+2022-01-10 16:02:41,684 如果报错请检查配置或者检查配置是否挂载
+2022-01-10 16:02:41,687 上传模式：ql
+2022-01-10 16:02:41,687 回收时间：5分钟
+2022-01-10 16:02:41,687 自动滑块：0
+2022-01-10 16:02:41,687 
+2022-01-10 16:02:41,687 
+2022-01-10 16:02:41,687 浏览器自检
+2022-01-10 16:02:41,687 -------------------------------------------------------------------------------------
+2022-01-10 16:02:46,914 页面文字京东登录注册+86获取验证码登 录账号密码登录手机快速注册其他登录方式QQ 微信 若您输入的手机号未注册，将为您直接注册，注册即视为同意 京东用户注册协议 、 用户隐私政策
+2022-01-10 16:02:46,914 关闭页面
+2022-01-10 16:02:46,980 浏览器关闭
+2022-01-10 16:02:46,980 浏览器自检成功
+2022-01-10 16:02:46,980 浏览器打开时间：5.292
+2022-01-10 16:02:46,980 -------------------------------------------------------------------------------------
+2022-01-10 16:02:46,980 检查成功
+2022-01-10 16:02:47,261 NETJDC started
+2022-01-10 16:03:01,353 System.Exception: 配置有误获取token失败
+   at Systems.Qlconfig.GetToken() in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 475
+   at Systems.Qlconfig.GetEnv(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 483
+   at Systems.Qlconfig.GetEnvsCount(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 512
+   at NETJDC.Controllers.CloudController.Config() in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 74
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-01-10 16:03:46,314 System.Exception: 配置有误获取token失败
+   at Systems.Qlconfig.GetToken() in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 475
+   at Systems.Qlconfig.GetEnv(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 483
+   at Systems.Qlconfig.GetEnvsCount(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 512
+   at NETJDC.Controllers.CloudController.Config() in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 74
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-01-10 16:03:54,131 
+2022-01-10 16:03:54,137 -------------------------------------------------------------------------------------
+2022-01-10 16:03:54,137 
+2022-01-10 16:03:54,145 序列号:AB4C4383-3698-4517-8579-86345CFB1603
+
+2022-01-10 16:03:54,145 Running on Linux!
+2022-01-10 16:03:54,145 系统架构：X64
+2022-01-10 16:03:54,145 系统名称：Linux 3.10.0-1160.11.1.el7.x86_64 #1 SMP Fri Dec 18 16:34:56 UTC 2020
+2022-01-10 16:03:54,145 进程架构：X64
+2022-01-10 16:03:54,145 是否64位操作系统：True
+2022-01-10 16:03:54,145 -------------------------------------------------------------------------------------
+2022-01-10 16:03:54,145 初始化项目
+2022-01-10 16:03:54,145 -------------------------------------------------------------------------------------
+2022-01-10 16:03:54,145 第一次运行会下载Chromium,后续只是检查是否下载
+2022-01-10 16:03:54,145 检查中....
+2022-01-10 16:03:54,163 True
+2022-01-10 16:03:54,164 程序配置自检 
+2022-01-10 16:03:54,164 如果报错请检查配置或者检查配置是否挂载
+2022-01-10 16:03:54,168 上传模式：ql
+2022-01-10 16:03:54,168 回收时间：5分钟
+2022-01-10 16:03:54,168 自动滑块：0
+2022-01-10 16:03:54,168 
+2022-01-10 16:03:54,168 
+2022-01-10 16:03:54,168 浏览器自检
+2022-01-10 16:03:54,168 -------------------------------------------------------------------------------------
+2022-01-10 16:03:59,371 页面文字京东登录注册+86获取验证码登 录账号密码登录手机快速注册其他登录方式QQ 微信 若您输入的手机号未注册，将为您直接注册，注册即视为同意 京东用户注册协议 、 用户隐私政策
+2022-01-10 16:03:59,371 关闭页面
+2022-01-10 16:03:59,462 浏览器关闭
+2022-01-10 16:03:59,462 浏览器自检成功
+2022-01-10 16:03:59,462 浏览器打开时间：5.2940000000000005
+2022-01-10 16:03:59,462 -------------------------------------------------------------------------------------
+2022-01-10 16:03:59,463 检查成功
+2022-01-10 16:03:59,726 NETJDC started
+2022-01-10 16:05:27,315 System.Exception: 配置有误获取token失败
+   at Systems.Qlconfig.GetToken() in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 475
+   at Systems.Qlconfig.GetEnv(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 483
+   at Systems.Qlconfig.GetEnvsCount(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 512
+   at NETJDC.Controllers.CloudController.Config() in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 74
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-01-10 16:05:34,651 System.Exception: 配置有误获取token失败
+   at Systems.Qlconfig.GetToken() in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 475
+   at Systems.Qlconfig.GetEnv(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 483
+   at Systems.Qlconfig.GetEnvsCount(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 512
+   at NETJDC.Controllers.CloudController.Config() in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 74
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-01-10 16:08:33,034 System.Exception: 配置有误获取token失败
+   at Systems.Qlconfig.GetToken() in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 475
+   at Systems.Qlconfig.GetEnv(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 483
+   at Systems.Qlconfig.GetEnvsCount(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 512
+   at NETJDC.Controllers.CloudController.Config() in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 74
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-01-10 16:16:43,284 System.Exception: 配置有误获取token失败
+   at Systems.Qlconfig.GetToken() in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 475
+   at Systems.Qlconfig.GetEnv(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 483
+   at Systems.Qlconfig.GetEnvsCount(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 512
+   at NETJDC.Controllers.CloudController.Config() in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 74
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-01-10 16:16:53,020 
+2022-01-10 16:16:53,028 -------------------------------------------------------------------------------------
+2022-01-10 16:16:53,028 
+2022-01-10 16:16:53,035 序列号:AB4C4383-3698-4517-8579-86345CFB1603
+
+2022-01-10 16:16:53,035 Running on Linux!
+2022-01-10 16:16:53,035 系统架构：X64
+2022-01-10 16:16:53,035 系统名称：Linux 3.10.0-1160.11.1.el7.x86_64 #1 SMP Fri Dec 18 16:34:56 UTC 2020
+2022-01-10 16:16:53,035 进程架构：X64
+2022-01-10 16:16:53,036 是否64位操作系统：True
+2022-01-10 16:16:53,036 -------------------------------------------------------------------------------------
+2022-01-10 16:16:53,036 初始化项目
+2022-01-10 16:16:53,036 -------------------------------------------------------------------------------------
+2022-01-10 16:16:53,036 第一次运行会下载Chromium,后续只是检查是否下载
+2022-01-10 16:16:53,036 检查中....
+2022-01-10 16:16:53,053 True
+2022-01-10 16:16:53,054 程序配置自检 
+2022-01-10 16:16:53,054 如果报错请检查配置或者检查配置是否挂载
+2022-01-10 16:16:53,058 上传模式：ql
+2022-01-10 16:16:53,058 回收时间：5分钟
+2022-01-10 16:16:53,058 自动滑块：0
+2022-01-10 16:16:53,058 
+2022-01-10 16:16:53,058 
+2022-01-10 16:16:53,058 浏览器自检
+2022-01-10 16:16:53,058 -------------------------------------------------------------------------------------
+2022-01-10 16:16:58,406 页面文字京东登录注册+86获取验证码登 录账号密码登录手机快速注册其他登录方式QQ 微信 若您输入的手机号未注册，将为您直接注册，注册即视为同意 京东用户注册协议 、 用户隐私政策
+2022-01-10 16:16:58,406 关闭页面
+2022-01-10 16:16:58,481 浏览器关闭
+2022-01-10 16:16:58,481 浏览器自检成功
+2022-01-10 16:16:58,481 浏览器打开时间：5.423
+2022-01-10 16:16:58,482 -------------------------------------------------------------------------------------
+2022-01-10 16:16:58,482 检查成功
+2022-01-10 16:16:58,793 NETJDC started
+2022-01-10 16:16:59,716 System.Exception: 配置有误获取token失败
+   at Systems.Qlconfig.GetToken() in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 475
+   at Systems.Qlconfig.GetEnv(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 483
+   at Systems.Qlconfig.GetEnvsCount(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 512
+   at NETJDC.Controllers.CloudController.Config() in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 74
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-01-10 16:17:01,355 System.Exception: 配置有误获取token失败
+   at Systems.Qlconfig.GetToken() in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 475
+   at Systems.Qlconfig.GetEnv(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 483
+   at Systems.Qlconfig.GetEnvsCount(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 512
+   at NETJDC.Controllers.CloudController.Config() in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 74
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-01-10 16:17:03,480 System.Exception: 配置有误获取token失败
+   at Systems.Qlconfig.GetToken() in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 475
+   at Systems.Qlconfig.GetEnv(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 483
+   at Systems.Qlconfig.GetEnvsCount(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 512
+   at NETJDC.Controllers.CloudController.Config() in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 74
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-01-10 16:17:45,940 System.Exception: 配置有误获取token失败
+   at Systems.Qlconfig.GetToken() in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 475
+   at Systems.Qlconfig.GetEnv(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 483
+   at Systems.Qlconfig.GetEnvsCount(String searchValue) in E:\03工作源码\NVJDC\Systems\MainConfig.cs:line 512
+   at NETJDC.Controllers.CloudController.Config() in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 74
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-01-10 16:17:56,992 
+2022-01-10 16:17:56,998 -------------------------------------------------------------------------------------
+2022-01-10 16:17:56,998 
+2022-01-10 16:17:57,005 序列号:AB4C4383-3698-4517-8579-86345CFB1603
+
+2022-01-10 16:17:57,005 Running on Linux!
+2022-01-10 16:17:57,005 系统架构：X64
+2022-01-10 16:17:57,006 系统名称：Linux 3.10.0-1160.11.1.el7.x86_64 #1 SMP Fri Dec 18 16:34:56 UTC 2020
+2022-01-10 16:17:57,006 进程架构：X64
+2022-01-10 16:17:57,006 是否64位操作系统：True
+2022-01-10 16:17:57,006 -------------------------------------------------------------------------------------
+2022-01-10 16:17:57,006 初始化项目
+2022-01-10 16:17:57,006 -------------------------------------------------------------------------------------
+2022-01-10 16:17:57,006 第一次运行会下载Chromium,后续只是检查是否下载
+2022-01-10 16:17:57,006 检查中....
+2022-01-10 16:17:57,035 True
+2022-01-10 16:17:57,037 程序配置自检 
+2022-01-10 16:17:57,037 如果报错请检查配置或者检查配置是否挂载
+2022-01-10 16:17:57,040 上传模式：ql
+2022-01-10 16:17:57,040 回收时间：5分钟
+2022-01-10 16:17:57,040 自动滑块：0
+2022-01-10 16:17:57,040 
+2022-01-10 16:17:57,040 
+2022-01-10 16:17:57,040 浏览器自检
+2022-01-10 16:17:57,040 -------------------------------------------------------------------------------------
+2022-01-10 16:18:02,292 页面文字京东登录注册+86获取验证码登 录账号密码登录手机快速注册其他登录方式QQ 微信 若您输入的手机号未注册，将为您直接注册，注册即视为同意 京东用户注册协议 、 用户隐私政策
+2022-01-10 16:18:02,292 关闭页面
+2022-01-10 16:18:02,359 浏览器关闭
+2022-01-10 16:18:02,359 浏览器自检成功
+2022-01-10 16:18:02,359 浏览器打开时间：5.3180000000000005
+2022-01-10 16:18:02,359 -------------------------------------------------------------------------------------
+2022-01-10 16:18:02,359 检查成功
+2022-01-10 16:18:02,635 NETJDC started
+2022-01-10 16:18:23,265     手机：18079579374 tabe 创建 时间:01/10/2022 16:18:23
+2022-01-10 16:18:23,265 18079579374选字安全验证
+2022-01-10 16:18:23,285 System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.PageServer.PageServer.GetIMG2(Page page, Int32 time) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 1064
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 450
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-10 16:20:17,834 
+2022-01-10 16:20:17,839 -------------------------------------------------------------------------------------
+2022-01-10 16:20:17,839 
+2022-01-10 16:20:17,846 序列号:AB4C4383-3698-4517-8579-86345CFB1603
+
+2022-01-10 16:20:17,846 Running on Linux!
+2022-01-10 16:20:17,846 系统架构：X64
+2022-01-10 16:20:17,847 系统名称：Linux 3.10.0-1160.11.1.el7.x86_64 #1 SMP Fri Dec 18 16:34:56 UTC 2020
+2022-01-10 16:20:17,847 进程架构：X64
+2022-01-10 16:20:17,847 是否64位操作系统：True
+2022-01-10 16:20:17,847 -------------------------------------------------------------------------------------
+2022-01-10 16:20:17,847 初始化项目
+2022-01-10 16:20:17,847 -------------------------------------------------------------------------------------
+2022-01-10 16:20:17,847 第一次运行会下载Chromium,后续只是检查是否下载
+2022-01-10 16:20:17,847 检查中....
+2022-01-10 16:20:17,865 True
+2022-01-10 16:20:17,867 程序配置自检 
+2022-01-10 16:20:17,867 如果报错请检查配置或者检查配置是否挂载
+2022-01-10 16:20:17,871 上传模式：ql
+2022-01-10 16:20:17,871 回收时间：5分钟
+2022-01-10 16:20:17,871 自动滑块：0
+2022-01-10 16:20:17,871 
+2022-01-10 16:20:17,871 
+2022-01-10 16:20:17,871 浏览器自检
+2022-01-10 16:20:17,871 -------------------------------------------------------------------------------------
+2022-01-10 16:20:23,148 页面文字京东登录注册+86获取验证码登 录账号密码登录手机快速注册其他登录方式QQ 微信 若您输入的手机号未注册，将为您直接注册，注册即视为同意 京东用户注册协议 、 用户隐私政策
+2022-01-10 16:20:23,149 关闭页面
+2022-01-10 16:20:23,229 浏览器关闭
+2022-01-10 16:20:23,229 浏览器自检成功
+2022-01-10 16:20:23,229 浏览器打开时间：5.357
+2022-01-10 16:20:23,229 -------------------------------------------------------------------------------------
+2022-01-10 16:20:23,229 检查成功
+2022-01-10 16:20:23,484 NETJDC started
+2022-01-10 16:20:35,270 PuppeteerSharp.NavigationException: net::ERR_TUNNEL_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+ ---> PuppeteerSharp.NavigationException: net::ERR_TUNNEL_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+   at PuppeteerSharp.FrameManager.NavigateAsync(CDPSession client, String url, String referrer, String frameId) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 145
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 115
+   --- End of inner exception stack trace ---
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 125
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 376
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-10 16:22:09,205 PuppeteerSharp.NavigationException: net::ERR_TUNNEL_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+ ---> PuppeteerSharp.NavigationException: net::ERR_TUNNEL_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+   at PuppeteerSharp.FrameManager.NavigateAsync(CDPSession client, String url, String referrer, String frameId) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 145
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 115
+   --- End of inner exception stack trace ---
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 125
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 376
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-10 16:22:18,955 
+2022-01-10 16:22:18,960 -------------------------------------------------------------------------------------
+2022-01-10 16:22:18,960 
+2022-01-10 16:22:18,967 序列号:AB4C4383-3698-4517-8579-86345CFB1603
+
+2022-01-10 16:22:18,967 Running on Linux!
+2022-01-10 16:22:18,968 系统架构：X64
+2022-01-10 16:22:18,968 系统名称：Linux 3.10.0-1160.11.1.el7.x86_64 #1 SMP Fri Dec 18 16:34:56 UTC 2020
+2022-01-10 16:22:18,968 进程架构：X64
+2022-01-10 16:22:18,968 是否64位操作系统：True
+2022-01-10 16:22:18,968 -------------------------------------------------------------------------------------
+2022-01-10 16:22:18,968 初始化项目
+2022-01-10 16:22:18,968 -------------------------------------------------------------------------------------
+2022-01-10 16:22:18,968 第一次运行会下载Chromium,后续只是检查是否下载
+2022-01-10 16:22:18,968 检查中....
+2022-01-10 16:22:18,986 True
+2022-01-10 16:22:18,988 程序配置自检 
+2022-01-10 16:22:18,988 如果报错请检查配置或者检查配置是否挂载
+2022-01-10 16:22:18,991 上传模式：ql
+2022-01-10 16:22:18,991 回收时间：5分钟
+2022-01-10 16:22:18,991 自动滑块：0
+2022-01-10 16:22:18,991 
+2022-01-10 16:22:18,991 
+2022-01-10 16:22:18,991 浏览器自检
+2022-01-10 16:22:18,991 -------------------------------------------------------------------------------------
+2022-01-10 16:22:24,354 页面文字京东登录注册+86获取验证码登 录账号密码登录手机快速注册其他登录方式QQ 微信 若您输入的手机号未注册，将为您直接注册，注册即视为同意 京东用户注册协议 、 用户隐私政策
+2022-01-10 16:22:24,354 关闭页面
+2022-01-10 16:22:24,410 浏览器关闭
+2022-01-10 16:22:24,410 浏览器自检成功
+2022-01-10 16:22:24,411 浏览器打开时间：5.4190000000000005
+2022-01-10 16:22:24,411 -------------------------------------------------------------------------------------
+2022-01-10 16:22:24,411 检查成功
+2022-01-10 16:22:24,714 NETJDC started
+2022-01-10 16:23:24,156 PuppeteerSharp.NavigationException: net::ERR_TUNNEL_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+ ---> PuppeteerSharp.NavigationException: net::ERR_TUNNEL_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+   at PuppeteerSharp.FrameManager.NavigateAsync(CDPSession client, String url, String referrer, String frameId) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 145
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 115
+   --- End of inner exception stack trace ---
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 125
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 376
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-10 16:24:15,284 
+2022-01-10 16:24:15,289 -------------------------------------------------------------------------------------
+2022-01-10 16:24:15,289 
+2022-01-10 16:24:15,296 序列号:AB4C4383-3698-4517-8579-86345CFB1603
+
+2022-01-10 16:24:15,296 Running on Linux!
+2022-01-10 16:24:15,297 系统架构：X64
+2022-01-10 16:24:15,297 系统名称：Linux 3.10.0-1160.11.1.el7.x86_64 #1 SMP Fri Dec 18 16:34:56 UTC 2020
+2022-01-10 16:24:15,297 进程架构：X64
+2022-01-10 16:24:15,297 是否64位操作系统：True
+2022-01-10 16:24:15,297 -------------------------------------------------------------------------------------
+2022-01-10 16:24:15,297 初始化项目
+2022-01-10 16:24:15,297 -------------------------------------------------------------------------------------
+2022-01-10 16:24:15,297 第一次运行会下载Chromium,后续只是检查是否下载
+2022-01-10 16:24:15,297 检查中....
+2022-01-10 16:24:15,314 True
+2022-01-10 16:24:15,316 程序配置自检 
+2022-01-10 16:24:15,316 如果报错请检查配置或者检查配置是否挂载
+2022-01-10 16:24:15,320 上传模式：ql
+2022-01-10 16:24:15,320 回收时间：5分钟
+2022-01-10 16:24:15,320 自动滑块：0
+2022-01-10 16:24:15,320 
+2022-01-10 16:24:15,320 
+2022-01-10 16:24:15,320 浏览器自检
+2022-01-10 16:24:15,320 -------------------------------------------------------------------------------------
+2022-01-10 16:24:20,580 页面文字京东登录注册+86获取验证码登 录账号密码登录手机快速注册其他登录方式QQ 微信 若您输入的手机号未注册，将为您直接注册，注册即视为同意 京东用户注册协议 、 用户隐私政策
+2022-01-10 16:24:20,580 关闭页面
+2022-01-10 16:24:20,641 浏览器关闭
+2022-01-10 16:24:20,641 浏览器自检成功
+2022-01-10 16:24:20,641 浏览器打开时间：5.32
+2022-01-10 16:24:20,641 -------------------------------------------------------------------------------------
+2022-01-10 16:24:20,642 检查成功
+2022-01-10 16:24:20,911 NETJDC started
+2022-01-10 16:24:45,723 PuppeteerSharp.NavigationException: net::ERR_TUNNEL_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+ ---> PuppeteerSharp.NavigationException: net::ERR_TUNNEL_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+   at PuppeteerSharp.FrameManager.NavigateAsync(CDPSession client, String url, String referrer, String frameId) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 145
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 115
+   --- End of inner exception stack trace ---
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 125
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 376
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-10 17:15:04,311 PuppeteerSharp.NavigationException: net::ERR_PROXY_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+ ---> PuppeteerSharp.NavigationException: net::ERR_PROXY_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+   at PuppeteerSharp.FrameManager.NavigateAsync(CDPSession client, String url, String referrer, String frameId) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 145
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 115
+   --- End of inner exception stack trace ---
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 125
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 376
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-10 17:17:09,562 PuppeteerSharp.NavigationException: net::ERR_PROXY_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+ ---> PuppeteerSharp.NavigationException: net::ERR_PROXY_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+   at PuppeteerSharp.FrameManager.NavigateAsync(CDPSession client, String url, String referrer, String frameId) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 145
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 115
+   --- End of inner exception stack trace ---
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 125
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 376
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-10 17:23:07,585 PuppeteerSharp.NavigationException: net::ERR_PROXY_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+ ---> PuppeteerSharp.NavigationException: net::ERR_PROXY_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+   at PuppeteerSharp.FrameManager.NavigateAsync(CDPSession client, String url, String referrer, String frameId) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 145
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 115
+   --- End of inner exception stack trace ---
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 125
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 376
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-10 17:31:04,389 获取nickname
+2022-01-10 17:31:05,843 获取nickname
+2022-01-10 17:32:12,794 PuppeteerSharp.NavigationException: net::ERR_PROXY_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+ ---> PuppeteerSharp.NavigationException: net::ERR_PROXY_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+   at PuppeteerSharp.FrameManager.NavigateAsync(CDPSession client, String url, String referrer, String frameId) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 145
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 115
+   --- End of inner exception stack trace ---
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 125
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 376
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-10 17:33:03,758 PuppeteerSharp.NavigationException: net::ERR_PROXY_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+ ---> PuppeteerSharp.NavigationException: net::ERR_PROXY_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+   at PuppeteerSharp.FrameManager.NavigateAsync(CDPSession client, String url, String referrer, String frameId) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 145
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 115
+   --- End of inner exception stack trace ---
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 125
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 376
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-10 17:43:18,874 获取nickname

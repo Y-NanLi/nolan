@@ -1,0 +1,130 @@
+2022-01-09 12:08:33,715 
+2022-01-09 12:08:33,720 -------------------------------------------------------------------------------------
+2022-01-09 12:08:33,720 
+2022-01-09 12:08:33,737 序列号:AB4C4383-3698-4517-8579-86345CFB1603
+
+2022-01-09 12:08:33,737 Running on Linux!
+2022-01-09 12:08:33,738 系统架构：X64
+2022-01-09 12:08:33,738 系统名称：Linux 3.10.0-1160.11.1.el7.x86_64 #1 SMP Fri Dec 18 16:34:56 UTC 2020
+2022-01-09 12:08:33,738 进程架构：X64
+2022-01-09 12:08:33,738 是否64位操作系统：True
+2022-01-09 12:08:33,738 -------------------------------------------------------------------------------------
+2022-01-09 12:08:33,738 初始化项目
+2022-01-09 12:08:33,738 -------------------------------------------------------------------------------------
+2022-01-09 12:08:33,738 第一次运行会下载Chromium,后续只是检查是否下载
+2022-01-09 12:08:33,738 检查中....
+2022-01-09 12:08:33,760 True
+2022-01-09 12:08:33,761 程序配置自检 
+2022-01-09 12:08:33,761 如果报错请检查配置或者检查配置是否挂载
+2022-01-09 12:08:33,766 上传模式：ql
+2022-01-09 12:08:33,766 回收时间：5分钟
+2022-01-09 12:08:33,766 自动滑块：0
+2022-01-09 12:08:33,766 
+2022-01-09 12:08:33,766 
+2022-01-09 12:08:33,766 浏览器自检
+2022-01-09 12:08:33,766 -------------------------------------------------------------------------------------
+2022-01-09 12:08:39,084 页面文字京东登录注册+86获取验证码登 录账号密码登录手机快速注册其他登录方式QQ 微信 若您输入的手机号未注册，将为您直接注册，注册即视为同意 京东用户注册协议 、 用户隐私政策
+2022-01-09 12:08:39,084 关闭页面
+2022-01-09 12:08:39,147 浏览器关闭
+2022-01-09 12:08:39,147 浏览器自检成功
+2022-01-09 12:08:39,147 浏览器打开时间：5.38
+2022-01-09 12:08:39,147 -------------------------------------------------------------------------------------
+2022-01-09 12:08:39,147 检查成功
+2022-01-09 12:08:39,480 NETJDC started
+2022-01-09 12:10:19,946     手机：18079579374 tabe 创建 时间:01/09/2022 12:10:19
+2022-01-09 12:10:19,946 18079579374选字安全验证
+2022-01-09 12:10:19,996 System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.PageServer.PageServer.GetIMG2(Page page, Int32 time) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 1064
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 450
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-09 12:10:40,557     手机：18079579374 tabe 创建 时间:01/09/2022 12:10:40
+2022-01-09 12:10:40,557 18079579374选字安全验证
+2022-01-09 12:10:40,559 System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.PageServer.PageServer.GetIMG2(Page page, Int32 time) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 1064
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 450
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-09 12:15:19,948     手机：18079579374 tabe 自动回收 时间:01/09/2022 12:15:19
+2022-01-09 12:15:40,556     手机：18079579374 tabe 自动回收 时间:01/09/2022 12:15:40
+2022-01-09 12:20:08,479     手机：18079579374 tabe 创建 时间:01/09/2022 12:20:08
+2022-01-09 12:20:08,479 18079579374选字安全验证
+2022-01-09 12:20:08,483 System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.PageServer.PageServer.GetIMG2(Page page, Int32 time) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 1064
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 495
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-09 12:21:18,567     手机：18079579374 tabe 创建 时间:01/09/2022 12:21:18
+2022-01-09 12:21:18,567 18079579374选字安全验证
+2022-01-09 12:21:18,569 System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.PageServer.PageServer.GetIMG2(Page page, Int32 time) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 1064
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 495
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-09 12:23:50,961 
+2022-01-09 12:23:50,969 -------------------------------------------------------------------------------------
+2022-01-09 12:23:50,969 
+2022-01-09 12:23:50,978 序列号:AB4C4383-3698-4517-8579-86345CFB1603
+
+2022-01-09 12:23:50,978 Running on Linux!
+2022-01-09 12:23:50,978 系统架构：X64
+2022-01-09 12:23:50,978 系统名称：Linux 3.10.0-1160.11.1.el7.x86_64 #1 SMP Fri Dec 18 16:34:56 UTC 2020
+2022-01-09 12:23:50,978 进程架构：X64
+2022-01-09 12:23:50,978 是否64位操作系统：True
+2022-01-09 12:23:50,979 -------------------------------------------------------------------------------------
+2022-01-09 12:23:50,979 初始化项目
+2022-01-09 12:23:50,979 -------------------------------------------------------------------------------------
+2022-01-09 12:23:50,979 第一次运行会下载Chromium,后续只是检查是否下载
+2022-01-09 12:23:50,979 检查中....
+2022-01-09 12:23:50,999 True
+2022-01-09 12:23:51,001 程序配置自检 
+2022-01-09 12:23:51,001 如果报错请检查配置或者检查配置是否挂载
+2022-01-09 12:23:51,005 上传模式：ql
+2022-01-09 12:23:51,005 回收时间：5分钟
+2022-01-09 12:23:51,005 自动滑块：0
+2022-01-09 12:23:51,005 
+2022-01-09 12:23:51,005 
+2022-01-09 12:23:51,005 浏览器自检
+2022-01-09 12:23:51,005 -------------------------------------------------------------------------------------
+2022-01-09 12:23:56,265 页面文字京东登录注册+86获取验证码登 录账号密码登录手机快速注册其他登录方式QQ 微信 若您输入的手机号未注册，将为您直接注册，注册即视为同意 京东用户注册协议 、 用户隐私政策
+2022-01-09 12:23:56,266 关闭页面
+2022-01-09 12:23:56,323 浏览器关闭
+2022-01-09 12:23:56,323 浏览器自检成功
+2022-01-09 12:23:56,323 浏览器打开时间：5.3180000000000005
+2022-01-09 12:23:56,323 -------------------------------------------------------------------------------------
+2022-01-09 12:23:56,324 检查成功
+2022-01-09 12:23:56,579 NETJDC started
+2022-01-09 12:24:09,642     手机：18079579374 tabe 创建 时间:01/09/2022 12:24:09
+2022-01-09 12:24:09,642 18079579374选字安全验证
+2022-01-09 12:24:09,659 System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.PageServer.PageServer.GetIMG2(Page page, Int32 time) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 1064
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 450
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-09 12:29:09,644     手机：18079579374 tabe 自动回收 时间:01/09/2022 12:29:09
+2022-01-09 18:35:59,914     手机：17683877425 tabe 创建 时间:01/09/2022 18:35:59
+2022-01-09 18:35:59,915 17683877425选字安全验证
+2022-01-09 18:35:59,917 System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.PageServer.PageServer.GetIMG2(Page page, Int32 time) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 1064
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 450
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-09 18:38:20,603     手机：17683877425 tabe 创建 时间:01/09/2022 18:38:20
+2022-01-09 18:38:20,603 17683877425选字安全验证
+2022-01-09 18:38:20,606 System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.PageServer.PageServer.GetIMG2(Page page, Int32 time) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 1064
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 495
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-09 18:40:59,915     手机：17683877425 tabe 自动回收 时间:01/09/2022 18:40:59
+2022-01-09 18:43:20,603     手机：17683877425 tabe 自动回收 时间:01/09/2022 18:43:20
+2022-01-09 18:43:45,513 System.Exception: 请输入正确的手机号码
+   at NETJDC.Controllers.CloudController.VerifyCode(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 568
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-01-09 22:25:41,236     手机：17683877425 tabe 创建 时间:01/09/2022 22:25:41
+2022-01-09 22:25:41,237 17683877425选字安全验证
+2022-01-09 22:25:41,239 System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.PageServer.PageServer.GetIMG2(Page page, Int32 time) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 1064
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 495
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-09 22:30:41,237     手机：17683877425 tabe 自动回收 时间:01/09/2022 22:30:41

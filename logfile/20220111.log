@@ -1,0 +1,134 @@
+2022-01-11 09:10:47,627 PuppeteerSharp.NavigationException: net::ERR_CONNECTION_RESET at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+ ---> PuppeteerSharp.NavigationException: net::ERR_CONNECTION_RESET at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+   at PuppeteerSharp.FrameManager.NavigateAsync(CDPSession client, String url, String referrer, String frameId) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 145
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 115
+   --- End of inner exception stack trace ---
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 125
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 376
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-11 10:01:58,142 获取nickname
+2022-01-11 10:01:58,887 获取nickname
+2022-01-11 10:04:04,505 PuppeteerSharp.NavigationException: net::ERR_ABORTED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+ ---> PuppeteerSharp.NavigationException: net::ERR_ABORTED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+   at PuppeteerSharp.FrameManager.NavigateAsync(CDPSession client, String url, String referrer, String frameId) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 145
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 115
+   --- End of inner exception stack trace ---
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 125
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 495
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-11 10:09:02,657 获取nickname
+2022-01-11 10:09:09,164 获取nickname
+2022-01-11 11:32:57,320 PuppeteerSharp.NavigationException: net::ERR_CONNECTION_RESET at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+ ---> PuppeteerSharp.NavigationException: net::ERR_CONNECTION_RESET at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+   at PuppeteerSharp.FrameManager.NavigateAsync(CDPSession client, String url, String referrer, String frameId) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 145
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 115
+   --- End of inner exception stack trace ---
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 125
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 495
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-11 18:07:41,739 PuppeteerSharp.NavigationException: net::ERR_CONNECTION_RESET at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+ ---> PuppeteerSharp.NavigationException: net::ERR_CONNECTION_RESET at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+   at PuppeteerSharp.FrameManager.NavigateAsync(CDPSession client, String url, String referrer, String frameId) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 145
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 115
+   --- End of inner exception stack trace ---
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 125
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 495
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-11 18:12:56,779 
+2022-01-11 18:12:56,786 -------------------------------------------------------------------------------------
+2022-01-11 18:12:56,786 
+2022-01-11 18:12:56,812 序列号:AB4C4383-3698-4517-8579-86345CFB1603
+
+2022-01-11 18:12:56,812 Running on Linux!
+2022-01-11 18:12:56,812 系统架构：X64
+2022-01-11 18:12:56,812 系统名称：Linux 3.10.0-1160.11.1.el7.x86_64 #1 SMP Fri Dec 18 16:34:56 UTC 2020
+2022-01-11 18:12:56,812 进程架构：X64
+2022-01-11 18:12:56,812 是否64位操作系统：True
+2022-01-11 18:12:56,812 -------------------------------------------------------------------------------------
+2022-01-11 18:12:56,812 初始化项目
+2022-01-11 18:12:56,812 -------------------------------------------------------------------------------------
+2022-01-11 18:12:56,812 第一次运行会下载Chromium,后续只是检查是否下载
+2022-01-11 18:12:56,813 检查中....
+2022-01-11 18:12:56,835 True
+2022-01-11 18:12:56,837 程序配置自检 
+2022-01-11 18:12:56,837 如果报错请检查配置或者检查配置是否挂载
+2022-01-11 18:12:56,842 上传模式：ql
+2022-01-11 18:12:56,843 回收时间：5分钟
+2022-01-11 18:12:56,843 自动滑块：0
+2022-01-11 18:12:56,843 
+2022-01-11 18:12:56,843 
+2022-01-11 18:12:56,843 浏览器自检
+2022-01-11 18:12:56,843 -------------------------------------------------------------------------------------
+2022-01-11 18:13:02,427 页面文字京东登录注册+86获取验证码登 录账号密码登录手机快速注册其他登录方式QQ 微信 若您输入的手机号未注册，将为您直接注册，注册即视为同意 京东用户注册协议 、 用户隐私政策
+2022-01-11 18:13:02,427 关闭页面
+2022-01-11 18:13:02,506 浏览器关闭
+2022-01-11 18:13:02,506 浏览器自检成功
+2022-01-11 18:13:02,506 浏览器打开时间：5.663
+2022-01-11 18:13:02,506 -------------------------------------------------------------------------------------
+2022-01-11 18:13:02,506 检查成功
+2022-01-11 18:13:02,811 NETJDC started
+2022-01-11 18:13:31,385 PuppeteerSharp.NavigationException: net::ERR_EMPTY_RESPONSE at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+ ---> PuppeteerSharp.NavigationException: net::ERR_EMPTY_RESPONSE at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+   at PuppeteerSharp.FrameManager.NavigateAsync(CDPSession client, String url, String referrer, String frameId) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 145
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 115
+   --- End of inner exception stack trace ---
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 125
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 376
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-11 18:13:38,274 PuppeteerSharp.NavigationException: net::ERR_EMPTY_RESPONSE at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+ ---> PuppeteerSharp.NavigationException: net::ERR_EMPTY_RESPONSE at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+   at PuppeteerSharp.FrameManager.NavigateAsync(CDPSession client, String url, String referrer, String frameId) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 145
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 115
+   --- End of inner exception stack trace ---
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 125
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 376
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-11 18:14:20,719 
+2022-01-11 18:14:20,729 -------------------------------------------------------------------------------------
+2022-01-11 18:14:20,729 
+2022-01-11 18:14:20,738 序列号:AB4C4383-3698-4517-8579-86345CFB1603
+
+2022-01-11 18:14:20,738 Running on Linux!
+2022-01-11 18:14:20,738 系统架构：X64
+2022-01-11 18:14:20,738 系统名称：Linux 3.10.0-1160.11.1.el7.x86_64 #1 SMP Fri Dec 18 16:34:56 UTC 2020
+2022-01-11 18:14:20,738 进程架构：X64
+2022-01-11 18:14:20,738 是否64位操作系统：True
+2022-01-11 18:14:20,738 -------------------------------------------------------------------------------------
+2022-01-11 18:14:20,738 初始化项目
+2022-01-11 18:14:20,738 -------------------------------------------------------------------------------------
+2022-01-11 18:14:20,738 第一次运行会下载Chromium,后续只是检查是否下载
+2022-01-11 18:14:20,738 检查中....
+2022-01-11 18:14:20,761 True
+2022-01-11 18:14:20,762 程序配置自检 
+2022-01-11 18:14:20,762 如果报错请检查配置或者检查配置是否挂载
+2022-01-11 18:14:20,766 上传模式：ql
+2022-01-11 18:14:20,766 回收时间：5分钟
+2022-01-11 18:14:20,766 自动滑块：0
+2022-01-11 18:14:20,766 
+2022-01-11 18:14:20,766 
+2022-01-11 18:14:20,766 浏览器自检
+2022-01-11 18:14:20,766 -------------------------------------------------------------------------------------
+2022-01-11 18:14:26,118 页面文字京东登录注册+86获取验证码登 录账号密码登录手机快速注册其他登录方式QQ 微信 若您输入的手机号未注册，将为您直接注册，注册即视为同意 京东用户注册协议 、 用户隐私政策
+2022-01-11 18:14:26,118 关闭页面
+2022-01-11 18:14:26,247 浏览器关闭
+2022-01-11 18:14:26,248 浏览器自检成功
+2022-01-11 18:14:26,248 浏览器打开时间：5.481
+2022-01-11 18:14:26,248 -------------------------------------------------------------------------------------
+2022-01-11 18:14:26,248 检查成功
+2022-01-11 18:14:26,673 NETJDC started
+2022-01-11 18:14:33,909 PuppeteerSharp.NavigationException: net::ERR_TUNNEL_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+ ---> PuppeteerSharp.NavigationException: net::ERR_TUNNEL_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+   at PuppeteerSharp.FrameManager.NavigateAsync(CDPSession client, String url, String referrer, String frameId) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 145
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 115
+   --- End of inner exception stack trace ---
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 125
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 376
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
+2022-01-11 18:14:41,179 PuppeteerSharp.NavigationException: net::ERR_TUNNEL_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+ ---> PuppeteerSharp.NavigationException: net::ERR_TUNNEL_CONNECTION_FAILED at https://plogin.m.jd.com/login/login?appid=300&returnurl=https%3A%2F%2Fwq.jd.com%2Fpassport%2FLoginRedirect%3Fstate%3D2087738584%26returnurl%3Dhttps%253A%252F%252Fhome.m.jd.com%252FmyJd%252Fnewhome.action%253Fsceneval%253D2%2526ufc%253D%2526&source=wq_passport
+   at PuppeteerSharp.FrameManager.NavigateAsync(CDPSession client, String url, String referrer, String frameId) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 145
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 115
+   --- End of inner exception stack trace ---
+   at PuppeteerSharp.FrameManager.NavigateFrameAsync(Frame frame, String url, NavigationOptions options) in C:\projects\puppeteer-sharp\lib\PuppeteerSharp\FrameManager.cs:line 125
+   at Server.PageServer.PageServer.OpenJDTab(Int32 qlkey, String Phone, Boolean UploadQL) in E:\03工作源码\NVJDC\Server\PageServer\PageServer.cs:line 376
+   at NETJDC.Controllers.CloudController.SendSMS(RequestEntity obj) in E:\03工作源码\NVJDC\NETJDC\Controllers\CloudController.cs:line 201
